@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>120.53.53.53</string>
+<string>1.12.12.12</string>
+<string>162.14.21.178</string>
+<string>162.14.21.56</string>
+
+				</array>
+				<key>ServerURL</key>
+				<string>https://doh.pub/dns-query</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures device to use doh-pub-4n Encrypted DNS over HTTPS</string>
+			<key>PayloadDisplayName</key>
+			<string>doh-pub-4n DNS over HTTPS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.60360789-e10a-4916-9ff4-19d25111b3ba</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>efd0dfeb-4d90-47e7-92f5-c7f9ff8befef</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Adds the doh-pub-4n DNS to Big Sur and iOS 14 based systems</string>
+	<key>PayloadDisplayName</key>
+	<string>doh-pub-4n DNS over HTTPS</string>
+	<key>PayloadIdentifier</key>
+	<string>plus.simpledns.apple-dns</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>e3692096-beaa-449d-8130-b0c7136e8a8b</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
